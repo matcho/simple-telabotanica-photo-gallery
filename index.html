@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple Tela Botanica Photo Gallery</title>
+		<meta charset="UTF-8">
+
+		<link rel="icon" type="image/png" href="https://resources.tela-botanica.org/tb/img/16x16/favicon.png">
+		<link rel="shortcut icon" type="image/x-icon" href="https://resources.tela-botanica.org/tb/img/16x16/favicon.ico">
+
+		<link rel="stylesheet" type="text/css" href="default.css">
+		<link href="lib/jquery.fancybox.min.css" rel="stylesheet">
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="lib/jquery.fancybox.min.js"></script>
+
+		<script type="text/javascript" src="config.js"></script>
+		<script type="text/javascript" src="simple-telabotanica-photo-gallery.js"></script>
+		<script type="text/javascript" src="lang-fr.js"></script>
+		<script type="text/javascript" src="lang-en.js"></script>
+	</head>
+
+	<body>
+		<div id="matrice">
+			<div id="zone-chargement-point" class="bordure">
+				<img id="img-chargement" src="chargement.gif">
+				<div id="legende-chargement"></div>
+			</div>
+			<div id="logo">
+				<a id="lien-logo" href="http://www.tela-botanica.org">
+					<img id="image-logo" class="bordure" src="https://resources.tela-botanica.org/tb/img/128x128/logo_carre_officiel.png" alt="Tela Botanica">
+				</a>
+			</div>
+			<a
+				id="lien-infos-cdu"
+				href="http://www.tela-botanica.org/widget:cel:cartoPoint?carte=avertissement"
+				target="_blank"
+			>
+				<div id="zone-aide" class="bordure">?</div>
+			</a>
+		</div>
+	</body>
+</html>
